@@ -1,5 +1,5 @@
 module.exports = (Sequelize, DataTypes) => {
-  const Media = sequelize.define(
+  const Media = Sequelize.define(
     "Media",
     {
       id: {
